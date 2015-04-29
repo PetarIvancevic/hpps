@@ -7,7 +7,7 @@
       <div class="col-sm-9">
         <img src="img/bg/pedijatrija_main.jpg" class="fullwidth">
         <p>Curabitur condimentum dictum imperdiet. Donec ipsum elit, hendrerit a placerat id, viverra sit amet turpis. Donec volutpat massa ut cursus facilisis. Duis sollicitudin at sapien tristique suscipit. In tincidunt consequat suscipit. Curabitur cursus tempus tortor at vestibulum.</p>
-        <p>Nulla nulla justo, viverra id justo in, porta dignissim turpis. Praesent consequat euismod urna efficitur maximus. Aliquam erat volutpat. Quisque cursus quam leo. Mauris in aliquam tortor. Ut sed pellentesque erat. Pellentesque sed odio neque. Cras posuere sapien ut est hendrerit tincidunt. Sed eleifend dignissim sollicitudin. Aenean et dapibus ex.</p>
+        <p>Nulla nulla justšćčđžo, viverra id justo in, porta dignissim turpis. Praesent consequat euismod urna efficitur maximus. Aliquam erat volutpat. Quisque cursus quam leo. Mauris in aliquam tortor. Ut sed pellentesque erat. Pellentesque sed odio neque. Cras posuere sapien ut est hendrerit tincidunt. Sed eleifend dignissim sollicitudin. Aenean et dapibus ex.</p>
       </div>
       <div class="col-sm-3">
         <?php 

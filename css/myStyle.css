@@ -1,5 +1,5 @@
-h1, h2, h3, h4, h5, h6 { color: #88A906; font-family: serif; font-weight: 700; }
-body { background-color: #F5F9FA; }
+h1, h2, h3, h4, h5, h6 { color: #a0c7d0; font-family: Verdana sans-serif; font-weight: 700; }
+body { background-color:    #f5f9fa; }
 
 header + nav {
 	margin-top: 0.3em;
@@ -12,21 +12,12 @@ header + nav {
 
 #wrapper p {
     font-size: 1.2em;
+    font-family: Noto+Sans;
+    font-weight: 400;
 }
 
-#logo span:nth-of-type(1) {
-	font-size: 1.5em;
-	letter-spacing: 3px;
-	font-weight: 700;
-	color: red;
-}	
-
-#logo span:nth-of-type(2) {
-	color: #333;
-	font-size: 0.9rem;
-    left: 1.6rem;
-    position: absolute;
-    top: 7.4rem;
+h1 {
+    font-family: 'Roboto';
     font-weight: 500;
 }
 
@@ -39,13 +30,35 @@ body footer {
 	background-color: #fff;
 }
 
+#logo span:nth-of-type(1) {
+    font-size: 0.4em;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #FF6666;
+}   
+
+#logo span:nth-of-type(2) {
+    color: #333;
+    font-size: 0.9rem;
+    left: 1.6rem;
+    position: absolute;
+    top: 7.4rem;
+    font-weight: 500;
+}
+
+
 .list-custom {
 	list-style: none;
 }
 
 .navbar {
-	background-color: #F5F9FA;
+	background-color: #f5f9fa;
+    /*border:1px solid;*/
 }
+/*.center {
+    background-color: #FFF8F0;
+}*/
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -63,6 +76,14 @@ body footer {
         text-align: center;
     }
 }
+#wrapper div {
+    background-color: #FFF8F0;
+}
+
+/*Footer background*/
+body > footer {
+    background-color: #F5F9FA;
+}
 
 .heading-uloga {
     font-weight: 500;
@@ -78,4 +99,27 @@ body footer {
 .fullwidth {
     width: 100%;
     margin-bottom: 2.5em;
+}
+
+/* nav font */
+li a, li {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+/*Smanjio veličinu div.container, izvorno mi je bio preširok.*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px; /*before 970px: n.v.*/
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 960px; /*before 1170px: n.v.*/
+  }
 }

@@ -7,15 +7,17 @@
 	<title>HPPŠ</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<h1 id="logo" title="Početna"><a href="/">
-					<span>HPPŠ</span>
+			 <!--<h1 id="logo" title="Početna"><a href="/">
 					<span>HRVATSKA PROLJETNA PEDIJATRIJSKA ŠKOLA</span>
-				</a></h1>
+					<span>HPPŠ</span>
+				</a></h1>-->
 			</div>
 			<div class="col-sm-4"></div>
 			<div class="col-sm-4"></div>
